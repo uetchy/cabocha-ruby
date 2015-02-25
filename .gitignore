@@ -1,0 +1,13 @@
+/.bundle/
+/vendor/bundle/
+/Gemfile.lock
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+*.bundle
+*.so
+*.o
+*.a
+mkmf.log
