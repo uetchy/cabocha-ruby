@@ -1,12 +1,8 @@
 # coding: utf-8
 
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'cabocha'
-
 Gem::Specification.new do |spec|
   spec.name          = 'cabocha'
-  spec.version       = CaboCha::VERSION
+  spec.version       = '0.69-1'
   spec.authors       = ['Yasuaki Uechi']
   spec.email         = ['uetchy@randompaper.co']
   spec.summary       = %q{cabocha-ruby is a gem that provides Ruby bindings for CaboCha.}
