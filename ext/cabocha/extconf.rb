@@ -7,6 +7,7 @@ enable_config('cabocha-config')
   have_library(lib)
 }
 
-$CFLAGS += ' ' + `#{cabocha_config} --cflags`.chomp
+$CPPFLAGS += ' ' + `#{cabocha_config} --cflags`.chomp
+$LDFLAGS += ' ' + `#{cabocha_config} --libs`.chomp
 
 have_header('cabocha.h') && create_makefile('cabocha/CaboCha')
