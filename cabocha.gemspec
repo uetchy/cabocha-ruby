@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'cabocha'
-  spec.version       = '0.69-1'
+  spec.version       = '0.69.1'
   spec.authors       = ['Yasuaki Uechi']
   spec.email         = ['uetchy@randompaper.co']
   spec.summary       = %q{cabocha-ruby is a gem that provides Ruby bindings for CaboCha.}
